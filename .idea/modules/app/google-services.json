@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "908333176514",
+    "firebase_url": "https://hassania-geo-it-default-rtdb.firebaseio.com",
+    "project_id": "hassania-geo-it",
+    "storage_bucket": "hassania-geo-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908333176514:android:8dfa59340d4a9fa31d0d5b",
+        "android_client_info": {
+          "package_name": "com.app.hassaniageoit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908333176514-aeou62p8ma2vp27m7ec8joq2kbojcmbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hassaniageoit",
+            "certificate_hash": "0fe19fd9553f232b1a5b598930e1849064285db8"
+          }
+        },
+        {
+          "client_id": "908333176514-g926fhvgbnil6q9jnmive7brn27temgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwQMM7pIjSbvy6ZkXnPkJQaLK6lVG-bXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908333176514-g926fhvgbnil6q9jnmive7brn27temgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
