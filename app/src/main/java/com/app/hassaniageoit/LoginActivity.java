@@ -7,7 +7,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,14 +44,21 @@ public class LoginActivity extends AppCompatActivity {
                 Login();
             }
         });
+
+    }
+
+    @Override
+    protected void onStart() {
+
         goRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), RegisterActivity.class);
+                Intent intent = new Intent(LoginActivity.this, registerActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+        super.onStart();
     }
 
     private void Login() {
