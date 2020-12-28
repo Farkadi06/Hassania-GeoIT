@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -38,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
         goRegister = (TextView) findViewById(R.id.goRegisterID);
         mProgressDialog = new ProgressDialog(this);
 
+        createRequest();
+
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
 
     @Override
     protected void onStart() {
